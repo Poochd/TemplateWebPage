@@ -1,0 +1,333 @@
+.Logo{
+
+    height: 250px;
+    width:200 px;
+    
+}
+
+body{
+    background-color: rgb(215, 255, 196);
+}
+
+.Title{
+    font-family: cursive;
+    color:rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    background-color: rgb(108, 206, 108);
+    width:500px; 
+    margin:auto;
+    padding: auto;
+    border-style: dotted;
+    border-radius: 40px;
+    border-color: aliceblue;
+
+}
+
+header{
+    border-style: solid;
+    border-color: rgb(29, 85, 76);
+    border-width: 5px;
+    height: auto;
+    width:100%; 
+    align-items: center;
+    background-color: forestgreen;
+    background-image: url("Title.jpg");
+}
+
+nav  {
+   
+    align-items: center;
+    border: 10px ;
+    border-color: black;
+    background-color: rgb(190, 231, 75);
+    display: flex;
+    flex-direction: row;
+    margin:auto;
+}
+
+.b1{
+    color: aliceblue;
+    border-style: solid;
+    background-color: rgb(29, 85, 76);
+    font-size:40px;
+    align-items: center;
+    margin:30px;
+    padding:20px
+}
+.bi:hover{
+    cursor:pointer;
+}
+.item{
+    padding:20px;
+    font-style: italic;
+    font-family: "Brush Script MT" ,"cursive";
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.images{
+    
+    background: rgb(255,255,183);
+    background: linear-gradient(0deg, rgba(255,255,183,1) 0%, rgba(187,254,118,1) 47%, rgba(162,255,157,1) 100%);
+    height: fit-content;
+    width:100%; 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-style:solid;
+    border-color:  rgb(29, 85, 76);
+    border-top-width: 0px;
+    border-width: 5px;
+    
+   
+}
+
+.itemImage{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left:20px;
+    padding-right:20px;
+    height: 700px;
+    width: 900px;
+    align-self: center;
+    align-items: center;
+    justify-content: left;
+    position: relative;
+    cursor:pointer;
+    
+}
+
+
+
+
+
+
+.flexbutton{
+display: flex;
+flex-direction: column;
+justify-content:center;
+position:relative;
+flex:1;
+}
+
+
+.b2{
+    color: rgb(7, 7, 7);
+    border-style: solid;
+    border-color: rgb(83, 83, 83);
+    background-color: rgb(218, 218, 218);
+    font-size:30px;
+    align-items: center;
+    margin:30px;
+    padding:20px;
+    height: fit-content;
+    width: fit-content;
+    border-radius: 50%;
+}
+
+
+.b2:hover{
+background-color: black;
+color:white;
+cursor:pointer;
+}
+
+.RickRoll{
+    margin:10px;
+    padding:20px;
+    height: 30xp;
+    width: auto;
+    align-self: center;
+    background-color: rgb(34, 145, 71);
+    color:white;
+    cursor:pointer;
+    display: inline-block;
+    position: relative;
+    
+}
+
+.RickRoll:hover{
+    background-color: aqua;
+    color:rgb(0, 0, 0);
+}
+
+
+.SignUpForm{
+    display:flex;
+    flex-direction: column;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-bottom: 300px;
+    background-color: rgb(145, 243, 47);
+    height: fit-content;
+    padding-top: 200px;
+    width: fit-content;
+}
+
+form h1{
+    font-style: italic;
+    font-family: "Lucida Handwriting" ,"cursive";
+    font-weight: bold;
+    font-size: 20px;
+    background-color: rgb(187, 255, 0);
+}
+
+
+.products{
+    background-color: rgb(151, 108, 14);
+    display: flex;
+    flex-flow:row;
+    height:fit-content;
+    width: 100%;
+    align-items: center;
+    padding-top: 60px;
+    padding-left: 200px;
+    align-content: center;
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    flex:1;
+    width:60%;
+}
+
+.item img{
+height: 250px;
+width: 300px;
+
+}
+
+
+.productTitle{
+    font-style: italic;
+    font-family: "Lucida Handwriting" ,"cursive";
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    background-color: rgb(168, 223, 75);
+}
+
+.subscription{
+    background-color: rgb(245, 235, 214);
+    display: flex;
+    flex-flow:row;
+    height:fit-content;
+    width: 100%;
+    align-items: center;
+    padding-left: 20px;
+    align-content: center;
+    
+}
+
+.plan{
+    display: flex;
+    flex-direction: column;
+    flex:1;
+    width:60%;
+    align-items: center;
+
+}
+.plan img{
+    height: 600x;
+    width: 500px;
+    padding: 30px;
+    }
+
+.sub{
+    color: rgb(7, 7, 7);
+    border-style: solid;
+    border-color: rgb(37, 126, 77);
+    background-color: rgb(21, 143, 38);
+    font-size:40px;
+    align-items: center;
+    margin:30px;
+    padding:20px;
+    font-size: medium;
+    font-weight: bold;
+    height: 50px;
+    width: fit-content;
+    text-align: center;
+}
+
+.sub:hover{
+    background-color: blueviolet;
+    cursor:pointer;
+}
+
+footer{
+    background-color: rgb(221, 212, 92);
+ 
+}
+
+.footerdiv{
+display: flex ;
+flex-direction: row;
+align-content: center;
+margin-left: 20px;
+
+}
+
+.footerdiv2{
+display: flex ;
+flex-direction: column;
+flex-wrap: wrap;
+flex:1;
+font-size: 10px;
+font-family: "Lucida Handwriting" ;
+align-content: flex-start;
+
+}
+
+.footerdiv3{
+    display: flex ;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex:1;
+    font-size: 10px;
+    font-family: "Lucida Handwriting" ;
+    align-content:flex-start;
+    }
+
+.footerTitle{
+    font-size: small;
+    font-family: "Lucida Handwriting" ,"cursive";
+    margin: 20px;
+    font-size: 20px;
+    
+}
+
+.footerTitle2{
+    font-size: 15px;
+    font-family: "Lucida Handwriting" ;
+    text-align: center;
+    border-bottom-style:solid;
+    border-color: rgb(0, 0, 0);
+    border-width: 1px;
+
+}
+
+.footerTitle3{
+    font-size: 10px;
+    font-family: "Lucida Handwriting" ;
+    text-align: center;
+
+}
+
+.footerdiv2.item:hover{
+    margin-left:10px;
+    cursor:pointer;
+}
+
+.socialImage{
+    height: 30px;
+    width: 30px;
+    margin: 5px;
+}
+
+.socialImage:hover{
+    margin-left:10px;
+   cursor:pointer;
+}
+
